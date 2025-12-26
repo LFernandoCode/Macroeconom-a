@@ -19,7 +19,7 @@ library(writexl)
 #############################################################
 #                      Datos                                #
 #############################################################
-data<-read_xlsx("E:/Análisis/Ciclos del PIB Bolivia/Base.xlsx",sheet=1)
+data<-read_xlsx(".../Base.xlsx",sheet=1)
 
 #############################################################
 #                      Procesamiento                                #
@@ -151,4 +151,5 @@ legend("topleft",
        lwd = c(2, NA),
        pch = c(NA, 15),
        pt.cex = 2,
+
        bty = "n")
